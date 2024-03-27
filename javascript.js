@@ -1,21 +1,29 @@
-function reverseString (param) {
-    let car = ""
-    let words = []
-
-        for(let i = 0 ; i < param.length ; i++){
-
-            car =  car + param[i]
-            console.log(car)
 
 
-            if(param[i] == " "){
-                console.log(car)
-                words.push(car)
-                car = ""
-            }
 
-        }
-        return words
+function findmax(arr) {
+    let max = arr(0)
+ for (let i=0 ; i < arr.lenght; i++){
+    if(arr[i] <max){
+        max=arr[i] 
+ }   }
+return max
 }
 
-console.log(reverseString(myString))
+
+
+
+
+
+function findmin(arr){
+    let min=arr(0)
+    for(let i=0 ; i > arr.lenght; i++){
+        if(arr[i] >min){
+            max=arr[i] 
+        }
+    }
+    return min
+}
+  
+  
+  console.log("min ============++++> ;" ,findMin(myArr))
